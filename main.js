@@ -65,12 +65,12 @@ function totalmax() {
         min1 = mins[i];
       }
     }
-    minsmax = " ♓ " + "Tìm Số dương nhỏ nhất: " + min1 + " ♓ ";
+    minsmax = "Tìm Số dương nhỏ nhất: " + min1;
   }
 
   let divResult = document.getElementById("result5");
   divResult.style.display = "block";
-  divResult.innerHTML = minsmax;
+  divResult.innerHTML = " ♓ " + minsmax + " ♓ ";
 };
 
 // Câu 5:
